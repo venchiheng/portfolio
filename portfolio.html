@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section (fixed) -->
+    <div class="header">
+        <a href="#intro">
+            <div class="logo">
+                <img class="logo-img" src="assets/logopfp.jpg" alt="pfp">
+                <p>Ven Chiheng</p>
+            </div>            
+        </a>
+
+        <div class="header-btn-group">
+            <a href="#intro"><button>Introduction</button></a>
+            <a href="#about"><button>About me</button></a>
+            <a href="#projects"><button>Projects</button></a>
+            <a href="#experiences"><button>Experiences</button></a>
+            <a href="#contact"><button>Contact</button></a>
+        </div>
+    </div>
+    <!-- Intro section -->
+    <div data-aos="fade-right" data-aos-duration="1000" id="intro" class="intro-section">
+        <img src="assets/intro-pic.png" alt="formal picture">
+        <div class="information">
+            <img src="assets/bg.png" alt="bg">
+            <div class="info-detail">
+                <h3>Welcome,</h3>
+                <h1>My name is <b>Ven Chiheng</b></h1>
+                <h3>Web Developer</h3>
+                <span>A curious mind driven to solve problems and 
+                    support communities through creativity and action.</span>
+                <div class="info-btn-group">
+                    <a href="#about"><button>Explore more</button></a>
+                    <a href="/assets/Ven Chiheng CV.pdf" download><button>Download CV</button></a>
+                    <a href="#contact"><button>Contact Me</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About me section -->
+    <div id="about"  class="about-section">
+        <div data-aos="fade-up" data-aos-duration="1000" class="edu-about">
+            <div class="edu">
+                <h2>Educational Background</h2>
+                <div class="edu-detail">
+                    <div class="vl"></div>
+                    <div class="school">
+                        <p><b>2021-Present:</b> Institute of Technology of Cambodia</p>
+                        <p><b>2016-2021:</b> Samdach Ov High School (Banteay Meanchey)</p>
+                    </div>
+                </div>
+                <h2>Soft Skills</h2>
+                <li>Strong Communicator</li>
+                <li>Problem solver</li>
+                <li>Adaptable</li>
+                <li>Team player</li>
+            </div>
+            <div class="about">
+                <h2>About Me</h2>
+                <p>
+                    Hi! I'm Ven Chiheng, a 21 years old Information 
+                    and Communication Engineering student at the Institute 
+                    of Technology of Cambodia. I'm currently in my 4th year, 
+                    passionate about web development, especially front-end work. 
+                    People often describe me as friendly, hard-working, and flexible.
+                    My goal is to become a creative front-end developer who builds user-friendly and 
+                    meaningful digital experiences. 
+                </p>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="tech-head">
+            <div class="hl"></div>
+            <h2>Technical Skills and Hobbie</h2>
+            <div class="hl"></div>
+        </div>        
+        <div data-aos="fade-up" data-aos-duration="1000" class="technical">
+            <div class="card">
+                <b>Programming Languages</b>
+                <h4>Intermediate</h4>
+                <p>HTML/CSS</p>
+                <p>JavaScript</p>
+                <h4>Beginner-Intermediate</h4>
+                <p>C/C++</p>
+                <p>Java</p>
+                <p>Python</p>
+                <h4>Beginner</h4>
+                <p>TypeScript</p>
+                <p>Dart</p>
+            </div>
+            <div class="card">
+                <b>Frameworks</b>
+                <p>Vue.js</p>
+                <p>Pinia</p>
+                <p>NestJS</p>
+                <p>Flutter</p>
+            </div>
+            <div class="card">
+                <b>Tools</b>
+                <p>Git</p>
+                <p>Docker</p>
+                <p>Postman</p>
+                <p>Bruno</p>
+                <p>MySQL</p>
+                <p>Figma</p>
+            </div>
+            <div class="card">
+                <b>Languages</b>
+                <p><b>Khmer:</b> Native language</p>
+                <p><b>English:</b> Intermediate</p>
+                <p><b>French:</b> B1</p>
+            </div>
+            <div class="card">
+                <b>Hobbies</b>
+                <h4>Entertainment</h4>
+                <p>Dance and listen to K-Pop</p>
+                <h4>Sport</h4>
+                <p>Badminton</p>
+                <h4>Movie</h4>
+                <p>Rom-com, Animated, Horror, Sci-fi</p>
+            </div>
+        </div>
+    </div>
+    <!-- Project section -->
+    <div id="projects" data-aos="fade-right" data-aos-duration="1000" class="project-section">
+        <h2>School Projects</h2>
+        <div data-aos="fade-right" data-aos-duration="1000" class="pro-card">
+            <h3><b>Green Bites</b></h3>
+            <div class="pro-card-section">
+                <div class="description">
+                    <span>
+                        This project aims to promote about sustainability habits by repurposing leftover food. All user need to do is just click on search and input the ingredient then our application will filter recipe related to that ingredient. By implementing HCI and Flutter together, we archive this user-friendly app.
+                    </span>
+                    <a href="https://github.com/Caffeine26/GreenBite.git"><button>View GitHub Repository</button></a>
+                </div>
+                <div class="video-wrapper">
+                    <video class="greenbite" src="assets/demo/GreenBiteMobile.mp4" controls muted></video>
+                </div>
+            </div>
+
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="pro-card">
+            <h3><b>Property searcher utilizing Breadth First Search Algorithm</b></h3>
+            <div class="pro-card-section">
+                <div class="description">
+                    <span>
+                        This small project is built to imitate BFS search algorithm. Data is stored in graph, with BFS logic and interactive UI combined this wonderful application. Using Python, TKinter, and BFS Algorithm, user can input location, price, property type, to search for their desired property.
+                    </span>  
+                    <a href="https://github.com/venchiheng/playground.git"><button>View GitHub Repository</button></a>
+                </div>
+                <div class="video-wrapper">
+                    <video class="search" src="assets/demo/searchBFS.mp4" controls muted></video>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000" class="pro-card">
+            <h3><b>Romdoul Rental Service</b></h3>
+            <div class="pro-card-section">
+                <div class="description">
+                    <span>
+                        A web-based house and apartment rental platform that connects tenants with landlords through property listings, booking features, and role-based notifications. It is built using Vue.js for the frontend, NestJS for the backend, and PostgreSQL for data management.
+                    </span>
+                    <a href="https://github.com/Sovichet-Rathanak/Rental-Service.git"><button>View GitHub Repository</button></a>
+                </div>
+                <div class="video-wrapper">
+                    <video class="search" src="assets/demo/searchBFS.mp4" controls muted></video>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-left" data-aos-duration="1000" class="pro-card">
+            <h3><b>Kravan E-Commerce</b></h3>
+            <div class="pro-card-section">
+                <div class="description">
+                    <span>
+                        A simple and user-friendly online shopping website that allows users to browse, search, and order products. The project uses Vue.js for the frontend and JSON Server as a mock backend, with design support from Figma and integration tools like EmailJS.
+                    </span>
+                    <a href="https://github.com/Sovichet-Rathanak/E-Commerce.git"><button>View GitHub Repository</button></a>
+                </div>
+                <div class="video-wrapper">
+                    <video class="search" src="assets/demo/searchBFS.mp4" controls muted></video>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="1000" class="pro-card">
+            <h3><b>NeoScript (LED Textboard)</b></h3>
+            <div class="pro-card-section">
+                <div class="description">
+                    <span>
+                        NeoScript is a web project that is created to utilize HTML, CSS, and JavaScript together to simulate the behaviour of LED Text Scroller. In this project we have learned a lot about fundamental of designing and build a website by just using these languages. 
+                    </span>
+                    <a href="https://github.com/venchiheng/LED_web_design.git"><button>View GitHub Repository</button></a>
+                </div>
+                <div class="video-wrapper">
+                    <video class="neoWeb" src="assets/demo/NeoWeb.mp4" controls muted></video>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Experience section -->
+    <div id="experiences" data-aos="fade-up" data-aos-duration="1000" class="experience-section">
+        <h2>Volunteer Experiences</h2>
+        <div class="ex-card-list">
+            <div data-aos="fade-right" data-aos-duration="1000" class="ex-card">
+                <h3><b>Cambodia 2023</b></h3>
+                <li><b>32th SEAGAME: </b>Team leader of Food and Accommodation at Hotel Cambodiana</li>
+                <li><b>12th PARAGAME: </b>Member of Transportation Officer at Phnom Penh International Airport</li>
+                <img src="assets/volunteer/seagame.jpg" alt="">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" class="ex-card">
+                <h3><b>Traditional Classical Khmer Dance</b></h3>
+                <li>Hosted by UYFC Svay Rieng, I volunteered as a Ticket seller where I am in charge of tracking tickets and interact with customers.</li>
+                <img src="assets/volunteer/Khmer traditional dance.jpg" alt="">
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="ex-card">
+                <h3><b>GIC Family Gathering 23th & 24th</b></h3>
+                <li><b>23th GIC Family Gathering:</b> Member of logistic team including help with decoration team.</li>
+                <li><b>24th GIC Family Gathering:</b>  An operator for both conference and evening party.</li>
+                <img src="assets/volunteer/GIC1.JPG" alt="">
+            </div>
+            <div data-aos="fade-left" data-aos-duration="1000" class="ex-card">
+                <h3><b>Pride Cambodia Festival 2025</b></h3>
+                <li><b>Rainbow Run Crew: </b>In charge of checking registrations of participations and organize medals on event day.</li>
+                <li><b>Remork Race Crew: </b>Contacting business owners to be pit stop for the race.</li>
+                <li><b>Stage Crew: </b>Managing material, keep track of agenda, and control music and sound for the event.</li>
+                <img src="assets/volunteer/pridefest.jpg" alt="">
+            </div>
+            <div data-aos="fade-right" data-aos-duration="1000" class="ex-card">
+                <h3><b>AOKAS</b></h3>
+                <li><b>Program and Speaker Coordinator: </b>Responsible for facilitating a breakout room session, including coordinating with the guest speaker, designing a detailed agenda, guiding the audience, and managing the overall flow of the workshop to ensure a smooth and engaging experience.</li>
+                <img src="assets/volunteer/aokas3.jpg" alt="">
+            </div>
+        </div>
+        <h2 data-aos="fade-up" data-aos-duration="1000">Community Contribution</h2>
+        <div data-aos="fade-up" data-aos-duration="1000" class="com-card">
+            <h3><b>Green Sphere 2025</b></h3>
+            <div class="com-card-section">
+                <p>I had the amazing opportunity to participate in a program hosted by Future Pioneer that inspired me to become a more passionate and environmentally conscious youth. Over the course of three days and two nights in Kampong Samaki, Kampot, I engaged in a variety of meaningful activities, including team bonding, mangrove tree planting, SDGs sharing sessions, slogan writing, and promoting the local community through digital platforms. It was a truly transformative experience that deepened my commitment to sustainability and community development.</p>
+                <img src="assets/volunteer/Green SPhere1.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Contact info section -->
+    <div id="contact" data-aos="fade-up" data-aos-duration="1000" class="contact-section">
+        <h2>Get in touch</h2>
+        <div class="split-contact">
+            <img src="assets/celebrate.gif" alt="celebrate" loop>
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="icon-text">
+                    <a class="icon-text" href="tel:+85599383430">
+                        <iconify-icon icon="mdi:phone" width="32" height="32"></iconify-icon>
+                        (+855) 99 383 430
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a class="icon-text" href="mailto:chiheng357@gmail.com">
+                        <iconify-icon icon="mdi:email" width="32" height="32"></iconify-icon>
+                        chiheng357@gmail.com
+                    </a>
+                </div>
+                <div class="icon-text">
+                    <a class="icon-text" href="https://github.com/venchiheng">
+                        <iconify-icon icon="mdi:github" width="32" height="32"></iconify-icon>
+                        https://github.com/venchiheng
+                    </a>
+                </div>
+                <h2>Social Media</h2>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/ven.chiheng/">
+                        <iconify-icon icon="ic:baseline-facebook" width="32" height="32"></iconify-icon>
+                    </a>
+                    <a href="https://www.instagram.com/jiheng_y/">
+                        <iconify-icon icon="mdi:instagram" width="32" height="32"></iconify-icon>
+                    </a>
+                    <a href="https://t.me/ven_chiheng">
+                        <iconify-icon icon="ic:baseline-telegram" width="32" height="32"></iconify-icon>
+                    </a>
+                    <a href="https://www.youtube.com/@ven_chiheng"> 
+                        <iconify-icon icon="mdi:youtube" width="32" height="32"></iconify-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <span>Copyright &copy; 2025 Ven Chiheng. All rights reserved. </span>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
