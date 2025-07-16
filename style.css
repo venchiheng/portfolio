@@ -57,6 +57,8 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     border: none;
     padding: 15px;
     border-radius: 50px;
+    text-decoration: none;
+    color: black;
 }
 .header-btn-group button:hover {
     background-color: black;
@@ -421,6 +423,7 @@ a{
         width: 100%;
         height: auto;
         object-fit: contain;
+        margin-bottom: -20%;
     }
     .information img {
         display: none;
@@ -433,18 +436,32 @@ a{
         padding-inline: 50px;
     }
     .info-detail {
-        margin: 0px;
-        padding: 0px;
-        border-radius: 20px;
+        position: relative; 
+        margin-top: -20%;
         padding: 20px;
         background-color: #DFEDFF;
+        border-radius: 20px;
+        width: 90%; 
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    }
+    .information {
+        height: auto;
+        padding-bottom: 30px;
+        margin-bottom: 0px;
     }
     .info-btn-group {
         flex-direction: row;
-        padding: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        text-decoration: none;
     }
     .info-btn-group button {
-        width: auto;
+        padding: 10px 15px;
+        font-size: 14px;
     }
     .edu-about {
         padding-inline: 0px;
