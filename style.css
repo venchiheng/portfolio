@@ -34,6 +34,10 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     border-bottom: 1px black solid;
     z-index: 1000;
 }
+.menu{
+    display: none;
+    cursor: pointer;
+}
 .logo{
     display: flex;
     flex-direction:row;
@@ -111,7 +115,6 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     padding-inline: 100px;
     display: flex;
     flex-direction: column;
-    animation: slide-up 3s ease-in-out forwards;
     animation-direction: alternate;
 }
 .edu-about{
@@ -358,14 +361,144 @@ a{
     font-size: 12px;
     color: gray;
 }
-@keyframes slide-in {
-  from {
-    transform: translateX(100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
+@media (max-width: 600px) {
+    h1, h3, span{
+        margin-bottom: 10px;
+        margin-top: 5px;
+        font-weight: normal;
+    } 
+    h2{
+        font-size: 18px;
+    }
+    .header {
+        flex-direction: row;
+        width: 100%;
+        padding-inline: 0px
+    }
+    .intro-section,
+    .edu-about,
+    .technical {
+        align-items: center;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+    .about-section,
+    .project-section,
+    .experience-section,
+    .contact-section,
+    .footer {
+        width: 100%;
+        padding-inline: 50px;
+    }
+    .menu{
+        display: block;
+        margin-right: 20px;
+    }
+    .header-btn-group{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        border-radius: 0px 0px 10px 10px;
+        padding: 10px;
+        right: 30px;
+        top: 60px;
+        gap: 10px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    #menu-toggle:checked + label + .header-btn-group {
+        display: flex;
+    }
+    .intro-section {
+        padding-inline: 70px;
+        height: fit-content;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-section img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+    .information img {
+        display: none;
+        margin-bottom: 0px;
+        margin-top: -400px;
+        padding-bottom: 0px;
+        position: absolute;
+    }
+    .about-section{
+        padding-inline: 50px;
+    }
+    .info-detail {
+        margin: 0px;
+        padding: 0px;
+        border-radius: 20px;
+        padding: 20px;
+        background-color: #DFEDFF;
+    }
+    .info-btn-group {
+        flex-direction: row;
+        padding: 0px;
+    }
+    .info-btn-group button {
+        width: auto;
+    }
+    .edu-about {
+        padding-inline: 0px;
+        flex-direction: column;
+        width: auto;
+        align-items: flex-start;
+    }
+    .about, .edu, .technical, .tech-head{
+        width: 100%;
+    }
 
+    .project-section{
+        padding-inline: 50px;
+    }
+    .pro-card{
+        background-color: white;
+        border: 10px #DFEDFF solid;
+
+    }
+    .pro-card-section{
+        flex-direction: column;
+        padding-inline: 0px;
+    }
+    .description{
+        max-width: 100%;
+    }
+    .experience-section{
+        padding-inline: 50px;
+        flex-direction: column;
+    }
+    .ex-card-list{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    .ex-card{
+        width: 100%;
+    }
+    .com-card-section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .com-card-section p{
+        width: 100%;
+    }
+    .com-card-section img{
+        width: auto;
+    }
+    .contact-section{
+        padding-inline: 50px;
+    }
+    .split-contact{
+        flex-direction: column;
+        align-self: center;
+    }
+}
