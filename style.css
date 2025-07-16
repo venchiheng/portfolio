@@ -378,11 +378,9 @@ a{
         padding-inline: 0px
     }
     .intro-section,
-    .edu-about,
-    .technical {
+    .edu-about {
         align-items: center;
         justify-content: center;
-        overflow-x: hidden;
     }
     .about-section,
     .project-section,
@@ -441,8 +439,8 @@ a{
         padding: 20px;
         background-color: #DFEDFF;
         border-radius: 20px;
-        width: 90%; 
-        margin-left: auto;
+        width: 115%; 
+        margin-left: -70px;
         margin-right: auto;
         z-index: 1;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
@@ -469,10 +467,23 @@ a{
         width: auto;
         align-items: flex-start;
     }
-    .about, .edu, .technical, .tech-head{
+    .about{
+        width: 100%;
+        margin-bottom: -10%;
+    } 
+    .edu{
         width: 100%;
     }
-
+    .tech-head{
+        width: 110%;
+        margin-top: 5%;
+    }
+    .technical{
+        width: 110%;
+    }
+    .hl{
+        width: 20%;
+    }
     .project-section{
         padding-inline: 50px;
     }
