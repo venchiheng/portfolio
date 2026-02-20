@@ -196,6 +196,10 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     font-size: 14px;
     margin-top: 2px;
 }
+.work-section{
+    padding-inline: 100px;
+    margin-top: 60px;
+}
 .project-section{
     padding-inline: 100px;
     margin-top: 60px;
@@ -395,6 +399,7 @@ a{
     .project-section,
     .experience-section,
     .contact-section,
+    .work-section,
     .footer {
         width: 100%;
         padding-inline: 50px;
