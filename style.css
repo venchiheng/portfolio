@@ -226,11 +226,20 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     color: white;
     padding: 15px;
     margin-top: 20px;
+    font-size: 12px;
 }
 .description button:hover{
     background-color: transparent;
     border: 1px black solid;
     color:  black;
+}
+.description span{
+    font-size: 13px;
+}
+.demo-btn-group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 .video-wrapper {
     display: flex;
