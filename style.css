@@ -41,10 +41,12 @@ section, .intro-section, .project-section, .experience-section, .contact-section
 .logo{
     display: flex;
     flex-direction:row;
+    justify-content: center;
+    align-items: center;
 }
 .logo img{
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .logo p{
     color: black;
@@ -174,7 +176,8 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     min-width: 200px; 
     max-width: auto;
     flex-shrink: 0; 
-    background-color: #DFEDFF;
+    background-color: white;
+    border: 1.5px solid black;
     border-radius: 20px;
     padding: 40px;
     height: 300px;
@@ -192,9 +195,9 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     margin-bottom: 10px;
 }
 .card h4{
-    margin-bottom: 2px;
+    margin-bottom: 1.5px;
     font-size: 14px;
-    margin-top: 2px;
+    margin-top: 1.5px;
 }
 .project-section{
     padding-inline: 100px;
@@ -205,7 +208,8 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 20px;
-    background-color: #DFEDFF;
+    background-color: white;
+    border: 1.5px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -275,7 +279,8 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     gap: 20px;
 }
 .ex-card{
-    background-color: #DFEDFF;
+    background-color: white;
+    border: 1.5px solid black;
     border-radius: 20px;
     max-width: 85%;
     height: 390px;
@@ -296,11 +301,12 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     margin-bottom: 5px;
 }
 .ex-card li{
-    font-size: 12px;
+    font-size: 11.5px;
 }
 .com-card{
     width: 92%;
-    background-color: #DFEDFF;
+    background-color: white;
+    border: 1.5px solid black;
     border-radius: 20px;
     padding: 30px;
     height: auto;
@@ -360,7 +366,7 @@ a{
     justify-content: center;
     padding-top: 50px;
     padding-bottom: 10px;
-    font-size: 12px;
+    font-size: 11.5px;
     color: gray;
 }
 @media (max-width: 600px) {
@@ -437,7 +443,8 @@ a{
         position: relative; 
         margin-top: -20%;
         padding: 20px;
-        background-color: #DFEDFF;
+        background-color: white;
+        border: 1.5px solid black;;
         border-radius: 20px;
         width: 115%; 
         margin-left: -70px;
@@ -489,8 +496,7 @@ a{
     }
     .pro-card{
         background-color: white;
-        border: 10px #DFEDFF solid;
-
+        border: 1.5px solid black;
     }
     .pro-card-section{
         flex-direction: column;
