@@ -199,6 +199,10 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     font-size: 14px;
     margin-top: 1.5px;
 }
+.work-section{
+    padding-inline: 100px;
+    margin-top: 60px;
+}
 .project-section{
     padding-inline: 100px;
     margin-top: 60px;
@@ -230,11 +234,20 @@ section, .intro-section, .project-section, .experience-section, .contact-section
     color: white;
     padding: 15px;
     margin-top: 20px;
+    font-size: 12px;
 }
 .description button:hover{
     background-color: transparent;
     border: 1px black solid;
     color:  black;
+}
+.description span{
+    font-size: 13px;
+}
+.demo-btn-group{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 .video-wrapper {
     display: flex;
@@ -392,6 +405,7 @@ a{
     .project-section,
     .experience-section,
     .contact-section,
+    .work-section,
     .footer {
         width: 100%;
         padding-inline: 50px;
